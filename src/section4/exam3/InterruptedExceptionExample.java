@@ -29,6 +29,9 @@ public class InterruptedExceptionExample {
         System.out.println("인터럽트 상태 3: " + thread.isInterrupted());
 
         /*
+        * 스레드가 wait, sleep, join 일 때 interrupt 만나면 InterruptedException 발생함
+        * InterruptedException 호출되면 interrupted 상태 false 로 초기화 된다.
+        *
         * 인터럽트 상태 1: false
         * 메인 스레드 2초간 Timed Wait Status
         * thread 5초간  Timed Wait Status
