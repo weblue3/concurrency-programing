@@ -1,4 +1,4 @@
-package section7;
+package section7.exam1;
 
 public class SharedData {
 
